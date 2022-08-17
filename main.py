@@ -20,3 +20,13 @@ def second_function ():
 def third_function ():
     count = 0
     return count
+
+def last_function ():
+    count = 0
+    return count
+
+def main():
+    first_function()
+    second_function()
+    third_function()
+    last_function()

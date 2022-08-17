@@ -15,4 +15,8 @@ def first_function ():
 
 def second_function ():
     max_tweet_users = 0
-    return max_tweet_users    
+    return max_tweet_users
+
+def third_function ():
+    count = 0
+    return count

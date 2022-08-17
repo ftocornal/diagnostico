@@ -3,7 +3,7 @@ import urllib.request, json
 with urllib.request.urlopen("https://www.kaggle.com/datasets/prathamsharma123/farmers-protest-tweets-dataset-raw-json") as url:
     data = json.loads(url.read().decode())
     print(data)
-
+    
 def first_function ():
     max_retweet_count = 0
     for i in data:
@@ -15,13 +15,4 @@ def first_function ():
 
 def second_function ():
     max_tweet_users = 0
-    return max_tweet_users
-
-
-
-    
-
-
-
-
-    
+    return max_tweet_users    
